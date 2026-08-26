@@ -10,5 +10,4 @@ COPY app/ ./app/
 
 COPY tests/ ./tests/
 
-CMD ["python", "-m", "pytest", "-v"]
-
+CMD ["python", "-m", "app.app"]
